@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Currículos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Gerador de Currículos</h1>
+        <form id="resumeForm">
+            <h2>Foto de Perfil</h2>
+            <div class="profile-picture-container">
+                <div class="profile-picture" id="profilePicture"></div>
+                <label for="uploadPicture" class="upload-label">
+                    <i class="fas fa-upload"></i> Upload Foto
+                </label>
+                <input type="file" id="uploadPicture" accept="image/*">
+            </div>
+            
+            <h2>Informações Pessoais</h2>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" placeholder="Ex: João da Silva" required>
+
+            <label for="profession">Profissão:</label>
+            <input type="text" id="profession" placeholder="Ex: Desenvolvedor Web" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Ex: joao@email.com" required>
+
+            <label for="phone">Telefone:</label>
+            <input type="tel" id="phone" placeholder="Ex: (11) 91234-5678" required>
+
+            <label for="cep">CEP:</label>
+            <input type="text" id="cep" placeholder="Ex: 12345-678" required>
+
+            <label for="address">Endereço:</label>
+            <input type="text" id="address" placeholder="Ex: Rua das Flores, 123" required>
+
+            <label for="city">Cidade:</label>
+            <input type="text" id="city" placeholder="Ex: São Paulo" required>
+
+            <label for="state">Estado:</label>
+            <input type="text" id="state" placeholder="Ex: SP" required>
+
+            <label for="nationality">Nacionalidade:</label>
+            <input type="text" id="nationality" placeholder="Ex: Brasileiro" required>
+
+            <label for="age">Idade:</label>
+            <input type="number" id="age" placeholder="Ex: 30" required>
+
+            <label for="gender">Gênero:</label>
+            <input type="text" id="gender" placeholder="Ex: Masculino" required>
+
+            <label for="relationship">Relacionamento:</label>
+            <input type="text" id="relationship" placeholder="Ex: Solteiro" required>
+
+            <h2>Experiência Profissional</h2>
+            <textarea id="experience" placeholder="Ex: Empresa XYZ - Desenvolvedor (2020 - Presente)"></textarea>
+
+            <h2>Formação Acadêmica</h2>
+            <textarea id="education" placeholder="Ex: Universidade ABC - Bacharel em Ciência da Computação (2015 - 2019)"></textarea>
+
+            <h2>Idiomas</h2>
+            <textarea id="languages" placeholder="Ex: Português, Inglês"></textarea>
+
+            <h2>Cursos</h2>
+            <textarea id="courses" placeholder="Ex: Curso de JavaScript - Plataforma XYZ"></textarea>
+
+            <h2>Habilidades</h2>
+            <textarea id="skills" placeholder="Ex: HTML, CSS, JavaScript"></textarea>
+
+            <h2>Projetos</h2>
+            <textarea id="projects" placeholder="Ex: Projeto de Portfólio - www.meuportfolio.com"></textarea>
+
+            <div class="button-container">
+                <button type="submit">Gerar Currículo</button>
+                <button id="downloadBtn" style="display: none;" type="button">Baixar Currículo em PDF</button>
+            </div>
+        </form>
+
+        <div id="resume" class="resume">
+            <h2>Currículo</h2>
+            <div id="resumeContent"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
