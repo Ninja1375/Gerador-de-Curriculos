@@ -1,3 +1,8 @@
+**Veja o projeto ao vivo:**
+
+[Gerador de Currículos](https://ninja1375.github.io/Gerador-de-Curriculos/)
+
+
 Este Gerador de Currículos é uma aplicação web que permite aos utilizadores criar currículos personalizados, inserindo informações pessoais e profissionais, e gerar um PDF estilizado com essas informações. A aplicação inclui funcionalidades interativas, como pré-visualização de foto de perfil e validação de campos obrigatórios.
 
 ## Funcionalidades principais: ##
