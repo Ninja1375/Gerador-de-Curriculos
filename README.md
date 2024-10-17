@@ -54,8 +54,12 @@ O utilizador pode ajustar as informações do currículo conforme suas necessida
 
 A inclusão de uma foto de perfil personaliza ainda mais o currículo.
 
-Automatização: 
+**4 - Automatização:**
 
 O preenchimento automático do endereço através do CEP simplifica o processo de criação.
 
 Este Gerador de Currículos combina facilidade de uso, flexibilidade e funcionalidades avançadas, permitindo ao utilizador criar e exportar um currículo profissional em poucos minutos.
+
+## linguagens Utilizadas ##
+
+<a href="https://programartudo.blogspot.com/2024/05/html-o-que-e-e-qual-sua-funcionalidade.html?m=1" target="_blank"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" height="40"/></a> <a href="https://programartudo.blogspot.com/2024/05/css-significado-e-funcionalidade.html?m=1" target="_blank"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" height="40"/></a> <a href="https://programartudo.blogspot.com/2024/05/javascript-significado-e-funcionalidade.html?m=1" target="_blank"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40"/></a>
